@@ -1,0 +1,31 @@
+/* 
+
+display: flex;:
+  Detta gör att .container blir en flex-container. Barn-objekten (här .item) kommer nu att placeras och justeras enligt flexbox-modellen.
+  
+justify-content: center;:
+  Detta centrerar barn-objekten horisontellt i containern.
+
+align-items: center;:
+  Detta centrerar barn-objekten vertikalt i containern.
+
+height: 100vh;:
+  Detta sätter höjden på containern till 100% av viewport-höjden, vilket gör att containern täcker hela höjden på skärmen. */
+
+/* 
+Övning (Lite svårare)
+  Ändra koden så att det finns 2 kolumner av 4 boxar! 
+*/
+
+.container {
+  display: flex; /* Gör att .container blir en flex-container */
+  justify-content: center; /* Centrerar barn-objekten horisontellt */
+  align-items: center; /* Centrerar barn-objekten vertikalt */
+  height: 100vh; /* Sätter höjden på containern till 100% av viewport-höjden */
+}
+
+.item {
+  background-color: orange; /* Sätter en bakgrundsfärg på varje item */
+  padding: 20px; /* Lägger till lite utrymme inuti varje item */
+  margin: 10px; /* Lägger till lite utrymme mellan varje item */
+}

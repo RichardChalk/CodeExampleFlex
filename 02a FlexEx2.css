@@ -1,0 +1,21 @@
+/* 
+Övning
+  Ändra koden så att...
+    boxarna är blåa (använd RGB syntax)
+    boxarna har vit text
+    boxarna är 200px höga
+    siffrorna är centrerade i boxen vågrätt och lodrätt! 
+*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  background-color: red;
+  padding: 20px;
+  margin: 10px;
+}
