@@ -1,0 +1,70 @@
+/* 
+  1. Varför har det skapats flera klasser?
+     item & item1,2,3 osv. 
+  2. Varför är body också en display-flex tror du?
+*/
+
+/* 
+Övning
+  Ändra koden så att...
+    boxarna med udda siffror är blåa
+    boxarna har text på 2.5 rem
+    ändra border-radius till 100% - Vad händer?
+*/
+
+body {
+  background-color: #6d6868;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  background-color: #13dd78;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  width: 100px;
+  height: 100px;
+}
+.item2 {
+  width: 150px;
+  height: 150px;
+}
+.item3 {
+  width: 200px;
+  height: 200px;
+}
+.item4 {
+  width: 250px;
+  height: 250px;
+}
+.item5 {
+  width: 100px;
+  height: 200px;
+}
+.item6 {
+  width: 150px;
+  height: 100px;
+}
+.item7 {
+  width: 200px;
+  height: 150px;
+}
+.item8 {
+  width: 250px;
+  height: 100px;
+}
